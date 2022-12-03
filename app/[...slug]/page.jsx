@@ -1,13 +1,14 @@
 import React from "react"
 import { Suspense } from 'react'
 import path from 'path';
-import fs from 'fs';
+import fs from 'fs'
 import yaml from "js-yaml"
-import Sections from './sections/Sections'
+import Sections from '../sections/Sections'
 
 
-async function getData() {
-  const file = path.join(process.cwd(), 'data/pages/')+"home.yml"
+async function getData(slug) {
+  const file = path.join(process.cwd(), 'data/pages/')+ slug +".yml"
+
   if(!fs.existsSync(file)) {
     throw new Error('Failed to fetch data');
   }
@@ -17,8 +18,8 @@ async function getData() {
   const json = yaml.load(fileContents);
   return json;
 }
-export default async function Home() {
-  const page = await getData();
+export default async function Page({params}) {
+  const page = await getData(params.slug);
   
   return (
     <>

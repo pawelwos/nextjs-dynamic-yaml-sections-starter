@@ -1,0 +1,13 @@
+id: 2
+title: Home
+sections:
+  -
+    type: header
+    content: "<h1>Home</h1>"
+    bgimg: "/images/home01.jpg"
+  -
+    type: simple
+    content: <p>Testing dynamic sections</p>
+  -
+    type: twocols
+    content: <p>Two cols</p>
