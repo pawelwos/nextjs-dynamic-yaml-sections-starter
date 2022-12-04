@@ -9,5 +9,4 @@ sections:
     type: simple
     content: <p>Testing dynamic sections</p>
   -
-    type: twocols
-    content: <p>Two cols</p>
+    type: blog-list

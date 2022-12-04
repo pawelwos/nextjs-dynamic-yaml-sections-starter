@@ -6,8 +6,12 @@ const Header = dynamic(() => import('./Header'), {
 const Simple = dynamic(() => import('./Simple'), {
   suspense: true,
 })
+const BlogList = dynamic(() => import('./BlogList'), {
+  suspense: true,
+})
 const Sections = {
   'header': Header,
-  'simple': Simple
+  'simple': Simple,
+  'blog-list': BlogList
 }
 export default Sections

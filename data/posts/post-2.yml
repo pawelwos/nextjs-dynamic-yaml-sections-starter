@@ -1,0 +1,16 @@
+id: 5
+title: Post 2
+intro: Testing server component fetch
+thumbnail: images/post01.jpg
+slug: post-2
+sections:
+  -
+    type: header
+    content: "<h1>Post 2</h1>"
+    bgimg: "images/home01.jpg"
+  -
+    type: simple
+    content: <p>Testing dynamic sections</p>
+  -
+    type: twocols
+    content: <p>Two cols</p>
