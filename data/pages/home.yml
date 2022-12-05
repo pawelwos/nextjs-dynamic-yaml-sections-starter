@@ -4,7 +4,7 @@ sections:
   -
     type: header
     content: "<h1>Home</h1>"
-    bgimg: "/images/home01.jpg"
+    bgimg: "images/pexels-invisiblepower-351448.jpg"
   -
     type: simple
     content: <p>Testing dynamic sections</p>
