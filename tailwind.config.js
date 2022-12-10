@@ -10,6 +10,10 @@ module.exports = {
     extend: {
       colors: {
         'current': 'currentColor'
+      },
+      fontFamily: {
+        'sans': ["'Montserrat'", 'Helvetica', 'Arial', 'sans-serif'],
+        'serif': ["'Rubik Vinyl'", 'ui-serif', 'Georgia', 'serif'],
       }
     },
   },

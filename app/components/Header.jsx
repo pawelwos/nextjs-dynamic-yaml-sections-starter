@@ -22,7 +22,7 @@ const Header = () => {
       )
     }
 
-    <section className="top p-4 fixed w-full">
+    <section className="top p-4 fixed z-50 w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div className="w-1/2">
           Logo
