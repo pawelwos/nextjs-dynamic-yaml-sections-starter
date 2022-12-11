@@ -3,10 +3,16 @@ title: Home
 sections:
   -
     type: header
-    content: "<h1>Home</h1>"
+    content: |
+      <h1>Welcome to NEXT JS 13 starter</h1>
+      <p>Christmas edition :D</p>
     bgimg: "images/pexels-invisiblepower-351448.jpg"
   -
     type: simple
-    content: <p>Testing dynamic sections</p>
+    content: |
+      <div class="text-center">
+        <h2 class="text-red-800">About</h2>
+        <p>This starter is continuation for a YAML dynamic sections approach. This time, it is based on NEXT JS 13, which is most popular javascript framework.</p>
+      </div>
   -
     type: blog-list

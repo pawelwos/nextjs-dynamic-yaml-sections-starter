@@ -4,10 +4,10 @@ const Navigation = ({type = 'desktop'}) => {
   return (
     <ul className={`${type == 'desktop' ? 'flex justify-end' : ''}`}>
       <li>
-        <Link className='p-2' href="/">Home</Link>
+        <Link className='p-2 font-bold' href="/">Home</Link>
       </li>
       <li>
-        <Link className='p-2' href="/about">About</Link>
+        <Link className='p-2 font-bold' href="/about">About</Link>
       </li>
     </ul>
   )

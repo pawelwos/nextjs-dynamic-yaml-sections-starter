@@ -1,0 +1,8 @@
+section.simple {
+  h2 {
+    @apply text-4xl md:text-6xl mb-4
+  }
+  p {
+    @apply text-gray-900
+  }
+}

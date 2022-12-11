@@ -1,0 +1,6 @@
+section.header {
+  h1 {
+    @apply text-6xl
+  }
+  @apply relative
+}

@@ -5,6 +5,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./sections/**/*.{js,ts,jsx,tsx}",
+    "./data/**/*.{yml, yaml}",
   ],
   theme: {
     extend: {
@@ -13,7 +14,7 @@ module.exports = {
       },
       fontFamily: {
         'sans': ["'Montserrat'", 'Helvetica', 'Arial', 'sans-serif'],
-        'serif': ["'Rubik Vinyl'", 'ui-serif', 'Georgia', 'serif'],
+        'serif': ["'Mountains of Christmas'", 'ui-serif', 'Georgia', 'serif'],
       }
     },
   },
