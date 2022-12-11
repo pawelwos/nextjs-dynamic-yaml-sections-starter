@@ -5,6 +5,8 @@ export default async function Home() {
   const page = await getPage();
   
   return (
-    <ContentLoop page={page} />
+    <>
+     <ContentLoop page={page} />
+    </>
   )
 }

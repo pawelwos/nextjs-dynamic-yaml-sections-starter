@@ -1,9 +1,8 @@
 import Image from 'next/image';
-import styles from './Header.module.css';
 
 const Header = ({section}) => {
   return (
-    <section className={styles.header}>
+    <section className="relative">
         {
           section.bgimg && (
             <Image 
@@ -14,7 +13,7 @@ const Header = ({section}) => {
           )
         }
       <div className="container relative z-20 mx-auto">
-        <div className='p-4 md:p-16 lg:p-24 text-center' dangerouslySetInnerHTML={{__html: section.content}}></div>
+        <div className='mx-auto  text-white p-4 md:p-16 lg:p-24 text-center prose prose-h1:text-6xl prose-invert' dangerouslySetInnerHTML={{__html: section.content}}></div>
       </div>
     </section>
   )
