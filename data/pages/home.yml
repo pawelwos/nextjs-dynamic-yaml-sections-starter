@@ -12,7 +12,8 @@ sections:
     content: |
       <div class="text-center">
         <h2 class="text-red-800">About</h2>
-        <p>This starter is continuation for a YAML dynamic sections approach. This time, it is based on NEXT JS 13, which is most popular javascript framework.</p>
+        <p>This starter is continuation for a YAML dynamic sections approach. This time, it is based on NEXT JS 13, which is the most popular javascript framework nowadays.</p>
+        <p>GITHUB repo: <a class="text-blue-800 underline" href="https://github.com/pawelwos/nextjs-dynamic-yaml-sections-starter">here</a></p>
       </div>
   -
     type: blog-list
