@@ -4,10 +4,33 @@ sections:
   -
     type: header
     content: "<h1>About</h1>"
-    bgimg: "/images/home01.jpg"
-  -
-    type: simple
-    content: <p>Testing dynamic sections</p>
+    bgimg: images/roberto-nickson-5PQn41LFsQk-unsplash.jpg
   -
     type: twocols
-    content: <p>Two cols</p>
+    bgcolor: "#efefef"
+    content: |
+      <h2 class="text-red-800">Two Columns Section</h2>
+      <p>Donec dolor turpis, luctus ut dignissim non, gravida in diam. Cras vitae dictum odio. Etiam convallis maximus laoreet. Praesent ultrices augue vel arcu volutpat, ac maximus dolor dapibus. Morbi consectetur arcu massa, at congue quam consequat id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer malesuada maximus odio eget malesuada. Duis vestibulum lectus at eros vehicula, eu imperdiet eros accumsan. Nunc nibh orci, aliquam commodo mattis imperdiet, ultricies sit amet metus. Fusce vel consequat massa. Duis ut molestie risus, ac viverra orci. Quisque ex dolor, finibus eget odio eget, fermentum rutrum nulla.</p>
+    image: images/roberto-nickson-5PQn41LFsQk-unsplash.jpg
+    imagePosition: left
+  -
+    type: simple
+    content: |
+      <div class="text-center">
+      <h2 class="text-blue-800">Simple section</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat, lorem nec tempus molestie, turpis tortor commodo augue, sagittis laoreet sapien ipsum sed elit. Vivamus augue leo, bibendum eget maximus eu, blandit rhoncus mauris. Mauris nec dignissim dui. Fusce pellentesque aliquam ipsum, sit amet vestibulum elit scelerisque ut. Praesent eget justo ut arcu pharetra congue. Donec non pharetra elit. Suspendisse ac vehicula nunc. Nullam non vehicula risus. Vestibulum et dignissim erat, at ullamcorper mauris. Nullam in semper nibh. Duis fringilla ex id suscipit facilisis. Etiam suscipit nisl sed sem faucibus venenatis. Donec volutpat gravida diam, vitae ornare nunc commodo et. Etiam aliquet enim quam, sed egestas felis euismod gravida. Proin iaculis iaculis dolor, quis suscipit metus porttitor gravida. Quisque euismod nibh et lacus posuere lobortis.</p>
+      </div>
+  -
+    type: twocols
+    bgcolor: "#efefef"
+    content: |
+      <h2 class="text-red-800">Two Columns Section</h2>
+      <p>Donec dolor turpis, luctus ut dignissim non, gravida in diam. Cras vitae dictum odio. Etiam convallis maximus laoreet. Praesent ultrices augue vel arcu volutpat, ac maximus dolor dapibus. Morbi consectetur arcu massa, at congue quam consequat id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer malesuada maximus odio eget malesuada. Duis vestibulum lectus at eros vehicula, eu imperdiet eros accumsan. Nunc nibh orci, aliquam commodo mattis imperdiet, ultricies sit amet metus. Fusce vel consequat massa. Duis ut molestie risus, ac viverra orci. Quisque ex dolor, finibus eget odio eget, fermentum rutrum nulla.</p>
+    image: images/annie-spratt-VDXtVYJVj7A-unsplash.jpg
+    imagePosition: right
+  -
+    type: simple
+    content: |
+      <div class="text-center">
+        <p><a href="/" class="button">BACK TO HOME</a></p>
+      </div>

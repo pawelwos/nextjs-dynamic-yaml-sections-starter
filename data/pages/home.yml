@@ -6,7 +6,7 @@ sections:
     content: |
       <h1>Welcome to NEXT JS 13 starter</h1>
       <p>Christmas edition :D</p>
-    bgimg: "images/pexels-invisiblepower-351448.jpg"
+    bgimg: "images/mel-poole-LUPXhXj2ip0-unsplash.jpg"
   -
     type: simple
     content: |

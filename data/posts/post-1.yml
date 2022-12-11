@@ -1,16 +1,34 @@
 id: 4
 title: Post 1
 intro: Testing server component fetch
-thumbnail: https://images.unsplash.com/photo-1529973625058-a665431328fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80
+thumbnail: images/annie-spratt-Z9Ds4w141i4-unsplash.jpg
 slug: post-1
 sections:
   -
     type: header
     content: "<h1>Post 1</h1>"
-    bgimg: "https://images.unsplash.com/photo-1529973625058-a665431328fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+    bgimg: images/annie-spratt-Z9Ds4w141i4-unsplash.jpg
   -
     type: simple
-    content: <p>Testing dynamic sections</p>
+    content: |
+      <div class="text-center">
+      <h2 class="text-blue-800">Simple section</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat, lorem nec tempus molestie, turpis tortor commodo augue, sagittis laoreet sapien ipsum sed elit. Vivamus augue leo, bibendum eget maximus eu, blandit rhoncus mauris. Mauris nec dignissim dui. Fusce pellentesque aliquam ipsum, sit amet vestibulum elit scelerisque ut. Praesent eget justo ut arcu pharetra congue. Donec non pharetra elit. Suspendisse ac vehicula nunc. Nullam non vehicula risus. Vestibulum et dignissim erat, at ullamcorper mauris. Nullam in semper nibh. Duis fringilla ex id suscipit facilisis. Etiam suscipit nisl sed sem faucibus venenatis. Donec volutpat gravida diam, vitae ornare nunc commodo et. Etiam aliquet enim quam, sed egestas felis euismod gravida. Proin iaculis iaculis dolor, quis suscipit metus porttitor gravida. Quisque euismod nibh et lacus posuere lobortis.</p>
+      <p>Donec dolor turpis, luctus ut dignissim non, gravida in diam. Cras vitae dictum odio. Etiam convallis maximus laoreet. Praesent ultrices augue vel arcu volutpat, ac maximus dolor dapibus. Morbi consectetur arcu massa, at congue quam consequat id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer malesuada maximus odio eget malesuada. Duis vestibulum lectus at eros vehicula, eu imperdiet eros accumsan. Nunc nibh orci, aliquam commodo mattis imperdiet, ultricies sit amet metus. Fusce vel consequat massa. Duis ut molestie risus, ac viverra orci. Quisque ex dolor, finibus eget odio eget, fermentum rutrum nulla.</p>
+      <p>Proin ultrices mi tortor, ut facilisis tortor fermentum ac. Mauris at gravida dolor, a pharetra urna. Nam faucibus, ex quis pretium vehicula, metus leo tempor metus, molestie fermentum ante mi a tellus. Nulla vitae ligula vitae nisl dictum fringilla. Suspendisse sit amet sagittis augue. Pellentesque mattis lacus in ipsum hendrerit, vel dapibus ante tincidunt. Mauris rutrum, erat eu sollicitudin elementum, lorem metus vehicula neque, in lacinia enim leo id lectus. Sed eu lobortis elit. Aenean molestie id orci at tincidunt. Mauris vel dignissim est. Cras bibendum aliquam cursus. Phasellus id diam a justo hendrerit commodo euismod non mi. Curabitur id turpis non tortor gravida pharetra eget vel turpis. Nulla ipsum lectus, mattis ac vehicula non, consequat nec metus.</p>
+      <p>Sed nec augue nec ipsum egestas dignissim. Curabitur cursus orci nisl, in congue lorem ullamcorper vitae. Aenean ac pretium nibh. Praesent libero ex, sollicitudin et nibh eget, egestas tincidunt augue. Donec vehicula dignissim lacus, nec iaculis tortor efficitur non. Aliquam lobortis lorem ac viverra porttitor. Sed porttitor diam nisl, ac ornare purus aliquet id. Curabitur ut orci leo. Sed imperdiet ante a elit bibendum, eget porttitor augue tincidunt. Donec dignissim malesuada interdum. Ut vel lectus imperdiet, dictum mauris sit amet, congue dolor. Fusce in orci bibendum, fermentum nisl non, blandit erat. Sed dictum sagittis dolor, ac lobortis ante euismod non. Integer eleifend tincidunt vestibulum. Maecenas elementum ultrices leo.</p>
+      </div>
   -
     type: twocols
-    content: <p>Two cols</p>
+    bgcolor: "#efefef"
+    content: |
+      <h2 class="text-red-800">Two Columns Section</h2>
+      <p>Donec dolor turpis, luctus ut dignissim non, gravida in diam. Cras vitae dictum odio. Etiam convallis maximus laoreet. Praesent ultrices augue vel arcu volutpat, ac maximus dolor dapibus. Morbi consectetur arcu massa, at congue quam consequat id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer malesuada maximus odio eget malesuada. Duis vestibulum lectus at eros vehicula, eu imperdiet eros accumsan. Nunc nibh orci, aliquam commodo mattis imperdiet, ultricies sit amet metus. Fusce vel consequat massa. Duis ut molestie risus, ac viverra orci. Quisque ex dolor, finibus eget odio eget, fermentum rutrum nulla.</p>
+    image: images/annie-spratt-Z9Ds4w141i4-unsplash.jpg
+    imagePosition: right
+  -
+    type: simple
+    content: |
+      <div class="text-center">
+        <p><a href="/" class="button">BACK TO HOME</a></p>
+      </div>
